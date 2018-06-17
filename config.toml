@@ -1,0 +1,150 @@
+baseurl = "http://example.com"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Copper's Blog"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "学习docker、kubernetes、DevOps、golang的博客"
+  logo = "img/eagle.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2018"
+#   commit = false
+  rss = true
+#   comments = true
+  readingTime = true
+  useHLJS = true
+
+[[Params.bigimg]]
+ src = "img/cloud.jpg"
+ desc = "Cloud"
+
+[Author]
+  name = "Cooper Pan(潘正明)"
+  website = "http://example.com"
+  email = "panzhengming91@163.com"
+  github = "goodliving"
+
+[[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    identifier = "Project"
+    name = "Project"
+    weight = 2
+
+[[menu.main]]
+    identifier = "tester"
+    name = "Tester"
+    weight = 3
+
+# --------- setup tester menu -------------
+
+[[menu.main]]
+    parent = "tester"
+    name = "blackbox"
+    url = "tags/blackbox"
+    weight = 1
+
+[[menu.main]]
+    parent = "tester"
+    name = "interface"
+    url = "tags/interface"
+    weight = 2
+
+[[menu.main]]
+    parent = "tester"
+    name = "capability"
+    url = "tags/capability"
+    weight = 3
+
+[[menu.main]]
+    parent = "tester"
+    name = "security"
+    url = "tags/security"
+    weight = 4
+
+[[menu.main]]
+    parent = "tester"
+    name = "automate"
+    url = "tags/automate"
+    weight = 5
+
+[[menu.main]]
+    parent = "tester"
+    name = "ui-ux"
+    url = "tags/ui-ux"
+    weight = 6
+
+[[menu.main]]
+    parent = "tester"
+    name = "pmp"
+    url = "tags/pmp"
+    weight = 7
+#### ---------------- end ----------------
+
+[[menu.main]]
+    identifier = "Arm64"
+    name = "Rraspberry"
+    url = "tags/arm64"
+    weight = 4
+
+[[menu.main]]
+    name = "About"
+    url = "page/about"
+    weight = 5
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 6
+
+# [[menu.main]]
+#     parent = "Project"
+#     name = "Linux"
+#     url = "post/linux"
+#     weight = 1
+
+# setup project menu
+
+[[menu.main]]
+    parent = "Project"
+    name = "docker"
+    url = "tags/docker"
+    weight = 2
+
+[[menu.main]]
+    parent = "Project"
+    name = "kubernetes"
+    url = "tags/kubernetes"
+    weight = 3
+
+[[menu.main]]
+    parent = "Project"
+    name = "CI/CD"
+    url = "tags/cicd"
+    weight = 4
+
+[[menu.main]]
+    parent = "Project"
+    name = "hugo"
+    url = "tags/hugo"
+    weight = 5
+
+[[menu.main]]
+    parent = "Project"
+    name = "Prometheus"
+    url = "https://songjiayang.gitbooks.io/prometheus/content/"
+    weight = 6
