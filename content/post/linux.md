@@ -2,7 +2,7 @@
 title: "Linux操作系统"
 date: 2018-06-17T16:56:31+08:00
 draft: false
-subtitle: "带你认识Linux系统"
+subtitle: "一起了解Linux世界"
 bigimg: [{src: "/img/linux.jpg", desc: "Linux"}]
 tags: ["linux", "centos", "ubuntu", "arm64", "x86_64"]
 ---

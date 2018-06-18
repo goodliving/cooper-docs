@@ -2,7 +2,7 @@
 title: "静态网站生成器Hugo"
 date: 2018-06-17T18:49:53+08:00
 draft: false
-subtitle: "初次安装使用Hugo"
+subtitle: "创建个人博客网站"
 bigimg: [{src: "/img/hugo.jpg", desc: "Hugo"}]
 tags: ["hugo", "golang", "nginx", "github"]
 ---

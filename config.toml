@@ -45,6 +45,39 @@ pygmentsCodeFences = true
     name = "Project"
     weight = 2
 
+### ----------------set up for project
+[[menu.main]]
+    parent = "Project"
+    name = "docker"
+    url = "tags/docker"
+    weight = 2
+
+[[menu.main]]
+    parent = "Project"
+    name = "kubernetes"
+    url = "tags/kubernetes"
+    weight = 3
+
+[[menu.main]]
+    parent = "Project"
+    name = "CI/CD"
+    url = "tags/cicd"
+    weight = 4
+
+[[menu.main]]
+    parent = "Project"
+    name = "hugo"
+    url = "tags/hugo"
+    weight = 5
+
+[[menu.main]]
+    parent = "Project"
+    name = "Raspberry"
+    url = "tags/pi"
+    weight = 6
+
+### ------------- end ------------
+
 [[menu.main]]
     identifier = "tester"
     name = "Tester"
@@ -93,13 +126,23 @@ pygmentsCodeFences = true
     name = "pmp"
     url = "tags/pmp"
     weight = 7
+
 #### ---------------- end ----------------
 
 [[menu.main]]
-    identifier = "Arm64"
-    name = "Rraspberry"
-    url = "tags/arm64"
+    identifier = "gitbook"
+    name = "gitbook"
     weight = 4
+
+### ---------------- set up for gitbook -------
+
+[[menu.main]]
+    parent = "gitbook"
+    name = "prometheus"
+    url = "https://songjiayang.gitbooks.io/prometheus/content/"
+    weight = 1
+
+### ---------------- end -------------
 
 [[menu.main]]
     name = "About"
@@ -119,32 +162,3 @@ pygmentsCodeFences = true
 
 # setup project menu
 
-[[menu.main]]
-    parent = "Project"
-    name = "docker"
-    url = "tags/docker"
-    weight = 2
-
-[[menu.main]]
-    parent = "Project"
-    name = "kubernetes"
-    url = "tags/kubernetes"
-    weight = 3
-
-[[menu.main]]
-    parent = "Project"
-    name = "CI/CD"
-    url = "tags/cicd"
-    weight = 4
-
-[[menu.main]]
-    parent = "Project"
-    name = "hugo"
-    url = "tags/hugo"
-    weight = 5
-
-[[menu.main]]
-    parent = "Project"
-    name = "Prometheus"
-    url = "https://songjiayang.gitbooks.io/prometheus/content/"
-    weight = 6
