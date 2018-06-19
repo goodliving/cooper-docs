@@ -124,8 +124,83 @@ FROM golang
 RUN mkdir /go/src/demo -p
 ADD . /go/src/demo
 WORKDIR /go/src/demo
+RUN go get -u -v github.com/gin-gonic/gin
 RUN go build -o demo
 EXPOSE 8080
 CMD ["/go/src/demo/demo"]
 ```
-以上表示运行一个`golang`容器，
+以上表示运行一个`golang`容器，设置工作目录`/go/src/demo`，之后编译源码生成一个`demo`可执行文件，最后设置该镜像的启动命令为刚才编译的`demo`，也就是提供`ping`的接口程序。
+
+> 对于`golang`不熟悉的，请查看`golang`介绍。对于其他语言项目，如`java`，是类似。在这里以`golang`为例，是比较简单方便展示
+
+之后，通过`docker build`命令来生成应用镜像，如下
+```shell
+[root@node1 golang]# docker build -t demo .
+Sending build context to Docker daemon  3.072kB
+Step 1/8 : FROM golang
+ ---> 52057de6c8d0
+Step 2/8 : RUN mkdir /go/src/demo -p
+ ---> Using cache
+ ---> 542825b49177
+Step 3/8 : ADD . /go/src/demo
+ ---> dc00592518c2
+Step 4/8 : WORKDIR /go/src/demo
+Removing intermediate container 89f074098fbd
+ ---> 86612b9ec869
+Step 5/8 : RUN go get -u -v github.com/gin-gonic/gin
+ ---> Running in f740a6905610
+github.com/gin-gonic/gin (download)
+github.com/gin-contrib/sse (download)
+github.com/golang/protobuf (download)
+github.com/ugorji/go (download)
+Fetching https://gopkg.in/go-playground/validator.v8?go-get=1
+Parsing meta tags from https://gopkg.in/go-playground/validator.v8?go-get=1 (status code 200)
+get "gopkg.in/go-playground/validator.v8": found meta tag get.metaImport{Prefix:"gopkg.in/go-playground/validator.v8", VCS:"git", RepoRoot:"https://gopkg.in/go-playground/validator.v8"} at https://gopkg.in/go-playground/validator.v8?go-get=1
+gopkg.in/go-playground/validator.v8 (download)
+Fetching https://gopkg.in/yaml.v2?go-get=1
+Parsing meta tags from https://gopkg.in/yaml.v2?go-get=1 (status code 200)
+get "gopkg.in/yaml.v2": found meta tag get.metaImport{Prefix:"gopkg.in/yaml.v2", VCS:"git", RepoRoot:"https://gopkg.in/yaml.v2"} at https://gopkg.in/yaml.v2?go-get=1
+gopkg.in/yaml.v2 (download)
+github.com/mattn/go-isatty (download)
+github.com/gin-gonic/gin/json
+github.com/golang/protobuf/proto
+gopkg.in/go-playground/validator.v8
+gopkg.in/yaml.v2
+github.com/gin-contrib/sse
+github.com/ugorji/go/codec
+github.com/mattn/go-isatty
+github.com/gin-gonic/gin/binding
+github.com/gin-gonic/gin/render
+github.com/gin-gonic/gin
+Removing intermediate container f740a6905610
+ ---> 8d7c287d32a3
+Step 6/8 : RUN go build -o demo
+ ---> Running in 0a02af773a2c
+Removing intermediate container 0a02af773a2c
+ ---> 485d299c7bf3
+Step 7/8 : EXPOSE 8080
+ ---> Running in d1a345a625fc
+Removing intermediate container d1a345a625fc
+ ---> 18b4a8899173
+Step 8/8 : CMD ["/go/src/demo/demo"]
+ ---> Running in ae9bbda5981f
+Removing intermediate container ae9bbda5981f
+ ---> 08adb93c8c7a
+Successfully built 08adb93c8c7a
+Successfully tagged demo:latest
+```
+以上代表我们的应用镜像生成成功，最后，我们来运行`docker run -d --name demo -p 8080:8080 demo`来确认该应用镜像能提供服务
+```shell
+[root@node1 golang]# curl http://localhost:8080/ping | python -m json.tool
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    18  100    18    0     0   2071      0 --:--:-- --:--:-- --:--:--  2250
+{
+    "message": "pong"
+}
+```
+以上表示应用的容器化能正常提供我们预期的功能。
+
+### How to use docker?
+
+### It is secure?
