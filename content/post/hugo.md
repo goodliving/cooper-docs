@@ -7,7 +7,7 @@ bigimg: [{src: "/img/hugo.jpg", desc: "Hugo"}]
 tags: ["hugo", "golang", "nginx", "github"]
 ---
 
-Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本博客就是通过hugo生成，以下是介绍其安装使用过程。
+`Hugo`是由`Go`语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本博客就是通过`hugo`生成，以下是介绍其安装使用过程。
 
 <!--more-->
 
