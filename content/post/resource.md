@@ -115,3 +115,5 @@ tags: ["website", "book"]
 - [无服务器架构](https://www.oschina.net/translate/serverless-architecture)
 - [HAProxy、Nginx 配置 HTTP/2 完整指南 ](https://www.oschina.net/translate/haproxy-nginx-http-2)
 - [高容量分布式系统的容错](https://www.oschina.net/translate/fault-tolerance-in-high-volume)
+- [Dockerfile编写最佳实践](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy)
+- [docker多层构建](https://docs.docker.com/develop/develop-images/multistage-build/)
