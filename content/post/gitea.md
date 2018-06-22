@@ -80,3 +80,6 @@ git push -u origin master
 - `git`的经常使用的命令
 - [Drone](http://docs.drone.io/zh/)的安装，基于`gitea`的持续集成
 
+### 书籍推荐
+
+- [Pro Git 第二版 简体中文](https://legacy.gitbook.com/book/bingohuang/progit2/details)

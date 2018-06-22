@@ -108,7 +108,7 @@ pipeline:
     channel: developers
     username: drone
 ```
-`drone`根据`yaml`格式来配置我们的工作流，以上配置表明一个`pipeline`，该流程有两个步骤：`backend`和`notify`，其中`backend`是对`golang`项目源码编译的过程，当`backend`结束，接下来执行`notify`，也就是发送`slack`通知到`developers`频道，使用的用户名为`drone`。插件都是通过`docker`镜像执行，可以在[drone插件市场](http://plugins.drone.io/)来获取有用的镜像，同时，也可以根据需要编写插件，参考[官方提供插件编写实例](http://docs.drone.io/creating-custom-plugins-bash/)。  
+`drone`根据`yaml`格式来配置我们的工作流，以上配置表明一个`pipeline`，该流程有两个步骤：`backend`和`notify`，其中`backend`是对`golang`项目源码编译的过程，当`backend`结束，接下来执行`notify`，也就是发送`slack`通知到`developers`频道，使用的用户名为`drone`。插件都是通过`docker`镜像执行，可以在[drone插件市场](http://plugins.drone.io/)来获取有用的镜像，同时，也可以根据需要编写插件，参考[官方插件编写实例](http://docs.drone.io/creating-custom-plugins-bash/)。  
 接下来，我们通过一个项目来使用`drone`，首先，在`gitea`上创建一个`demo`项目，然后添加一个`gin`项目，如下所示
 ```shell
 [root@nodejs-200 demo]# ls -a
@@ -143,14 +143,14 @@ pipeline:
     commands:
       - go get
       - go build
-      - echo "hello, world!"
+      - echo "build done!"
 
   publish:
     image: plugins/docker
-    repo: dhub.juxinli.com/demo
+    repo: registry.example.com/demo
     username: panzhengming
     tags: [ 1.0, latest ]
-    registry: dhub.juxinli.com
+    registry: registry.example.com
 
   wechat:
     image: clem109/drone-wechat
@@ -163,21 +163,41 @@ pipeline:
     btn_txt: btn
     when:
       status: [ success ]
+
+  email:
+    image: drillster/drone-email
+    host: smtp.163.com
+    port: 465
+    username: username # 改成自己的用户名，然后删除注释
+    password: oauth_token # 使用163邮箱需要进行获取一个token，不然报错，改成自己的，然后删除注释
+    from: panzhengming91@163.com
+    recipients: [ panzhengming@example.com, test@example.com ] # 接收的邮箱地址，可以有多个邮箱
+    recipients_only: true
+    subject: "Drone-CI: ${DRONE_REPO} notifaction"
+    body: "Build Number: ${DRONE_BUILD_NUMBER}, ${DRONE_REPO} 部署${DRONE_BUILD_STATUS}. Check the results here: ${DRONE_BUILD_LINK}"
+    when:
+      status: [ success ]
 ```
-> 以上的微信通知需要注册企业微信号，对于微信通知设置，登录微信官网注册企业账号，之后学习官方微信的使用教程，在我的企业下获取corpid，在企业应用下注册一个应用获取AgentId、Secret后，最后在.drone.yml的wechat工作流中填写对应值即可。其他场景使用参考官方使用教程，不在此做介绍。
+> **以上的微信通知需要注册企业微信号，对于微信通知设置，登录微信官网注册企业账号，之后学习官方微信的使用教程，在我的企业下获取corpid，在企业应用下注册一个应用获取 `AgentId`、`Secret`后，最后在`.drone.yml`的 `wechat`工作流中填写对应值即可。其他场景使用参考官方使用教程，不在此做介绍。**
 
 然后，在提交代码之前，我们需要在`drone`上开启项目的自动构建开关，打开后，我们提交到代码到仓库。你发现`drone`页面上该项目自动根据`.drome.yml`中配置项开始构建
-![avatar](http://wx3.sinaimg.cn/mw690/0060lm7Tly1fsixxcnaz5j31gt0et75x.jpg)
+![avatar](http://wx4.sinaimg.cn/mw690/0060lm7Tly1fsjyolfl3xj31h30ect9m.jpg)
 
-> 以上实例是下载默认的镜像，比如每次构建都需要下载对应的库，我们可以先构建好一个编译环境的镜像，以后直接通过该镜像来编译源码，当我们的库变更时，只要再次更新编译镜像即可，其他的则不需要变动。对于拉取公网镜像，可以将阿里云加速器配置到 `docker`的插件中，构建项目需要的镜像。
+> **以上实例是下载默认的镜像，比如每次构建都需要下载对应的库，我们可以先构建好一个编译环境的镜像，以后直接通过该镜像来编译源码，当我们的库变更时，只要再次更新编译镜像即可，其他的则不需要变动。对于拉取公网镜像，可以将阿里云加速器配置到 `docker`的插件中，加速拉取构建项目中需要的镜像。**
 
 当以上流程结束后，你会得到一个镜像以及一个微信发送给你的构建结果消息。最后，我们在一台装有`docker`机器运行该镜像，需要注意的是映射端口，之后访问之前暴露出来的接口，出现以下结果表示构建成功。
 ```shell
 [root@node1 ~]# curl http://localhost:8080/ping
 {"message":"pong"}
 ```
+### Drone接口文档
+对于想将`drone`集成到自己的`CI`系统中，可以参考[drone接口描述](http://readme.drone.io/api/)。
 
 ### 应用场景
 以上简单介绍了`drone`的`golang`的使用，对于其他语言的配置类似，可以根据需要使用相关插件，同时也可以根据诉求编写插件。接下来聊聊，我们可以通过`drone`来完成什么任务。在软件开发过程中，整个工作场景，有沟通`IM`、文档编写`markdown`、源码管理`gitea`、源码编译、持续集成`drone`或者`jenkins`、环境安装、自动化测试、问题单管理系统、上线发布、上线监控等。而这些场景我们通过`drone`来实现，`drone`实现的是粘合剂的作用，快速实现我们的`devops`原型。
+
+### 书籍推荐
+
+- [持续交付-发布可靠软件的系统方法](http://vdisk.weibo.com/s/uwMdY7-7n-mkh)
 
 > `IM` 工具 `rokcet.chat`、文档编写 `hugo`、源码管理 `gitea`、编译镜像 `docker`、运维机器人 `hubot`、基础环境 `kubernetes`、监控 `Prometheus`
