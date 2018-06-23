@@ -75,7 +75,7 @@ total 4
 -rw-r--r-- 1 root   root   1011 Jun 11 16:34 docker-compose.yml
 drwxrwxrwx 3 tomcat tomcat   20 Jun 11 16:36 mariadb
 ```
-其中`mariadb`是数据库的目录，需要注意的是由于`bitnami/mariadb`镜像有个`bug`，需要在执行`docker-compose up -d`之前，创建好`mariadb`目录，同时将目录权限改成`777`来规避问题。 当然，你也可以使用其他数据库镜像来代替。接下来，我们通过`docker-compose`命令来确认安装成功，出现以下结果表示一切正常
+其中`mariadb`是数据库的目录，需要注意的是由于`bitnami/mariadb`镜像有个`bug`，需要在执行`docker-compose up -d`之前，创建好`mariadb`目录，同时将目录权限改成`777`来规避问题。当然，你也可以使用其他数据库镜像来代替。同时关闭防火墙，不然日志会报`grpc`连接不上。接下来，我们通过`docker-compose`命令来确认安装成功，出现以下结果表示一切正常
 ```shell
 [root@nodejs-200 drone]# docker-compose ps
         Name                    Command                State                                    Ports

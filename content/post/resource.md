@@ -65,8 +65,24 @@ tags: ["website", "book"]
 - [TensorFlow 深度学习框架](https://www.tensorflow.org/)
 - [less.js 前段代码压缩库](https://less.bootcss.com/#)
 - [Caesium 图片压缩工具](https://saerasoft.com/caesium/)
-- [hubot 自动化运维工具](https://hubot.github.com/)
+- [hubot 自动化运维机器人](https://hubot.github.com/)
 - [Luban app图片处理库](https://github.com/Curzibn/Luban)
+- [PrivateBin pastebin共享内容](https://github.com/PrivateBin/PrivateBin)
+- [Syncthing 文件存储系统](https://github.com/syncthing/syncthing)
+- [YOURLS 开源短链接生成程序](http://www.senra.me/self-hosted-url-shortener-series-yourls-powerful-but-need-secondary-development/)
+- [Polr 开源短链接生成程序](http://www.senra.me/self-hosted-url-shortener-series-polr-simple-but-powerful/)
+- [zfs 文件系统](http://www.senra.me/install-zfs-on-centos6/#more-1148)
+- [RoundCube 邮箱服务器](https://roundcube.net/download/)
+- [cloud-torrent 云端BT](https://github.com/jpillora/cloud-torrent)
+- [plex 私人在线片库](http://www.senra.me/build-your-own-cloud-storage-series-plex-media-server-private-online-media-library/#more-986)
+- [serverreview-benchmark 服务器性能测试脚本](https://github.com/sayem314/serverreview-benchmark)
+- [netdata 服务器性能检测](https://github.com/firehol/netdata)
+- [SuperBench 测试服务器的基本参数](https://liyuans.com/2018/05/superbench.html )
+- [Markdown 转换微信公众帐号内容](https://github.com/cnych/online-markdown)
+- [trafficcontrol CDN解决方案](https://github.com/apache/trafficcontrol)
+- [KubeVirt k8s虚拟机项目](https://github.com/kubevirt/kubevirt)
+- [Insomnia 接口测试工具](https://insomnia.rest/download/)
+
 
 ### 书籍列表
 
@@ -82,6 +98,7 @@ tags: ["website", "book"]
 - [git pro 中文版](https://gitee.com/progit/)
 - [prometheus实战](https://songjiayang.gitbooks.io/prometheus/)
 - [Don't.Make.Me.Think(中文,第二版)](http://vdisk.weibo.com/s/sYrR9gEu_Mfqo)
+- [布道之道—引领团队拥抱技术创新](http://vdisk.weibo.com/s/zmzzSciGaVmNj    )
 
 ### 专业文章
 - [微服务最佳实践](https://www.oschina.net/translate/cracking-microservices-practices?cmp)
@@ -117,3 +134,5 @@ tags: ["website", "book"]
 - [高容量分布式系统的容错](https://www.oschina.net/translate/fault-tolerance-in-high-volume)
 - [Dockerfile编写最佳实践](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy)
 - [docker多层构建](https://docs.docker.com/develop/develop-images/multistage-build/)
+- [Docker切换OverLay(2)](http://www.senra.me/docker-switch-storage-driver-to-overlay2-to-optimize-performance/#more-1136)
+- [前端性能专栏](https://github.com/barretlee/performance-column)
