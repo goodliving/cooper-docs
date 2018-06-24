@@ -82,6 +82,15 @@ tags: ["website", "book"]
 - [trafficcontrol CDN解决方案](https://github.com/apache/trafficcontrol)
 - [KubeVirt k8s虚拟机项目](https://github.com/kubevirt/kubevirt)
 - [Insomnia 接口测试工具](https://insomnia.rest/download/)
+- [jupyter notebook 在线代码运行](http://jupyter.org/)
+- [jupyterhub jupyter集群用户管理](http://jupyterhub.readthedocs.io/en/stable/)
+- [openldap 用户权限认证](http://www.openldap.org/doc/admin24/quickstart.html)
+- [harbor 镜像管理中心](https://github.com/vmware/harbor)
+- [StatusOK 接口状态检查](https://github.com/sanathp/statusok)
+- [Vegeta 接口负载压力测试工具](https://github.com/tsenart/vegeta)
+- [Monocular k8s的app应用商城](https://github.com/kubernetes-helm/monocular)
+- [kops k8s集群管理工具](https://github.com/kubernetes/kops)
+- [astilectron golang的GUI工具](github.com/asticode/go-astilectron)
 
 
 ### 书籍列表
@@ -136,3 +145,4 @@ tags: ["website", "book"]
 - [docker多层构建](https://docs.docker.com/develop/develop-images/multistage-build/)
 - [Docker切换OverLay(2)](http://www.senra.me/docker-switch-storage-driver-to-overlay2-to-optimize-performance/#more-1136)
 - [前端性能专栏](https://github.com/barretlee/performance-column)
+- [harbor 高可用搭建](https://blog.csdn.net/u012473280/article/details/73302741)

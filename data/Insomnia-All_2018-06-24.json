@@ -1,0 +1,3882 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-06-24T14:14:43.503Z",
+	"__export_source": "insomnia.desktop.app:v5.16.6",
+	"resources": [
+		{
+			"_id": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"created": 1525589996556,
+			"description": "",
+			"modified": 1525589996556,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"created": 1529746824860,
+			"description": "",
+			"modified": 1529746824860,
+			"name": "Drone",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"created": 1529762763609,
+			"description": "",
+			"modified": 1529765218800,
+			"name": "Rockat.chat",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_f78a784e4d584207ac6e482bc2144c09",
+			"created": 1529766133768,
+			"description": "",
+			"modified": 1529766133768,
+			"name": "Gitea",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"created": 1529766313696,
+			"description": "",
+			"modified": 1529766313696,
+			"name": "Harbor",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_8370e81fe0584bf581abb363870206bc",
+			"color": null,
+			"created": 1525589996580,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1525589996580,
+			"name": "New Environment",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_669d5965c3a1416aba1357ece72d4062",
+			"cookies": [],
+			"created": 1525589996696,
+			"modified": 1525589996696,
+			"name": "Default Jar",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_f570943e63d0403aae82ca8301f6217b",
+			"created": 1529736658751,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529736658755,
+			"modified": 1529736873805,
+			"name": "认证接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_e34aadc290c545e3b1c6fc0741855da7",
+			"created": 1529736702279,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529734343546,
+			"modified": 1529736885806,
+			"name": "用户信息接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c243e7e9fa6a4b76982a1fbbf8597938",
+			"created": 1529736756195,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185866.5,
+			"modified": 1529736867927,
+			"name": "管理员用户接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_1b942189bdb84cd8965b673edb954798",
+			"created": 1529736773620,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185816.5,
+			"modified": 1529736899678,
+			"name": "代码仓库接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_9a2212c486294b47a6d6ae9d5bce118d",
+			"created": 1529736916879,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185766.5,
+			"modified": 1529736921346,
+			"name": "代码构建接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_d8f471322ac84339ac60211810a72fd5",
+			"created": 1529736947575,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185716.5,
+			"modified": 1529736951915,
+			"name": "镜像仓库接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_041da9b68dc74c98bcd149ce962935b7",
+			"created": 1529737066509,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185666.5,
+			"modified": 1529737069074,
+			"name": "权限控制接口",
+			"parentId": "wrk_eb647eead72445819094fc61a7e1fdf6",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_1fa54815dab54152bda7ba19ad4c4cd7",
+			"color": null,
+			"created": 1529746825033,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529760285556,
+			"name": "New Environment",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_2a6130be3b7c46a5bc02bd13f69a1392",
+			"cookies": [
+				{
+					"creation": "2018-06-23T09:59:00.669Z",
+					"domain": "47.98.248.210",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "2535825280151778",
+					"key": "user_sess",
+					"lastAccessed": "2018-06-24T08:26:06.003Z",
+					"maxAge": 2147483647,
+					"path": "/",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzAwODc5NjUsInRleHQiOiJwYW56aGVuZ21pbmciLCJ0eXBlIjoic2VzcyJ9.b0A24ruuoejMnWuPUNEKaCXQW7KK46Ntz1bVSrHVcyA"
+				}
+			],
+			"created": 1529746825035,
+			"modified": 1529828766003,
+			"name": "Default Jar",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_08c061720bb84cf391e734d69ba6ec89",
+			"created": 1529746846945,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733764706.25,
+			"modified": 1529758572357,
+			"name": "用户信息接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_87f6d93d17aa4626b8e404741bdc8a1c",
+			"created": 1529746862095,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529735501150.5,
+			"modified": 1529746862102,
+			"name": "认证接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"created": 1529746868210,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185841.5,
+			"modified": 1529746868226,
+			"name": "管理员用户接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"created": 1529746873408,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185741.5,
+			"modified": 1529746873427,
+			"name": "代码构建接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"created": 1529746877056,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185691.5,
+			"modified": 1529746877058,
+			"name": "镜像仓库接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"created": 1529746879964,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185616.5,
+			"modified": 1529746879970,
+			"name": "权限控制接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_a3049daf4bac47de9ea428897388f546",
+			"created": 1529758361531,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529733185791.5,
+			"modified": 1529758363802,
+			"name": "代码仓库接口",
+			"parentId": "wrk_2e2cac1b4ccb4a969fab8f8aa8bbfa5e",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_e8922f2a3574419b809994e8d1e277e2",
+			"color": null,
+			"created": 1529762764136,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529762764136,
+			"name": "New Environment",
+			"parentId": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_8aab8c90736a4ba5816e5108bf7329f7",
+			"cookies": [],
+			"created": 1529762764138,
+			"modified": 1529762764138,
+			"name": "Default Jar",
+			"parentId": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_c75ae241d94945628662d64dbc25ec25",
+			"created": 1529765284743,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529765284743,
+			"modified": 1529765516787,
+			"name": "应用信息 Miscellaneous Information",
+			"parentId": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ca7ae98cbfaf4b999247f250b3851d26",
+			"created": 1529765450583,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529765284693,
+			"modified": 1529765525219,
+			"name": "权限 Authentication",
+			"parentId": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ab555b8f095f4e90abb2ae8bf5534803",
+			"created": 1529765923799,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529765284643,
+			"modified": 1529765947990,
+			"name": "用户 Users",
+			"parentId": "wrk_a5c1c17fb80c49659ad6e1c97619e9fb",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_b281b6c0167343eb99664043c0dd15bd",
+			"color": null,
+			"created": 1529766134140,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529766134140,
+			"name": "New Environment",
+			"parentId": "wrk_f78a784e4d584207ac6e482bc2144c09",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_2621b228bff745799761cdf54155c1c5",
+			"cookies": [
+				{
+					"creation": "2018-06-23T15:08:56.325Z",
+					"domain": "47.98.248.210",
+					"hostOnly": true,
+					"id": "4596191006640953",
+					"key": "lang",
+					"lastAccessed": "2018-06-23T15:08:56.325Z",
+					"maxAge": 2147483647,
+					"path": "/",
+					"value": "en-US"
+				},
+				{
+					"creation": "2018-06-23T15:08:56.327Z",
+					"domain": "47.98.248.210",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "4778044217273494",
+					"key": "i_like_gogits",
+					"lastAccessed": "2018-06-23T15:08:56.327Z",
+					"path": "/",
+					"value": "4770c0acf5bba44e"
+				},
+				{
+					"creation": "2018-06-23T15:08:56.364Z",
+					"domain": "47.98.248.210",
+					"expires": "2018-06-24T15:08:14.000Z",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "6815658969143803",
+					"key": "_csrf",
+					"lastAccessed": "2018-06-23T15:08:56.364Z",
+					"path": "/",
+					"value": "wsZlTmDPQaISLBv8lyMGRXyU4Xo6MTUyOTc2NjQ5NDk3MzUwNjE0NA%3D%3D"
+				}
+			],
+			"created": 1529766134144,
+			"modified": 1529766536364,
+			"name": "Default Jar",
+			"parentId": "wrk_f78a784e4d584207ac6e482bc2144c09",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_f2b0628687d84560a03ca09114611ae2",
+			"created": 1529766442521,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529766442521,
+			"modified": 1529766442521,
+			"name": "管理员 Admin",
+			"parentId": "wrk_f78a784e4d584207ac6e482bc2144c09",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_057d1e2b131a48c69296583ba6580ceb",
+			"color": null,
+			"created": 1529766313903,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529766313903,
+			"name": "New Environment",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_4095b33bcc8c4477a155a8bdf32a9a26",
+			"cookies": [
+				{
+					"creation": "2018-06-24T03:35:52.271Z",
+					"domain": "47.98.180.244",
+					"hostOnly": true,
+					"httpOnly": true,
+					"id": "3079448460840484",
+					"key": "beegosessionID",
+					"lastAccessed": "2018-06-24T07:31:13.498Z",
+					"path": "/",
+					"value": "a105e58bc69f2cbb81a3abe27c2b1353"
+				}
+			],
+			"created": 1529766313906,
+			"modified": 1529825473498,
+			"name": "Default Jar",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_8713d9b70ace4a9c9fb18e3978ba9789",
+			"created": 1529809740052,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809765752.9922,
+			"modified": 1529828574659,
+			"name": "系统信息",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_07ed2497ce304f339b07406f652c2d19",
+			"created": 1529810210013,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529810210013,
+			"modified": 1529810210013,
+			"name": "登录",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_3602d94830c547d0ab136287dbb036d5",
+			"created": 1529810423976,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809975032.5,
+			"modified": 1529810426530,
+			"name": "用户",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"created": 1529812363167,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809857542.25,
+			"modified": 1529812365067,
+			"name": "镜像仓库",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"created": 1529812427654,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809916287.375,
+			"modified": 1529816313023,
+			"name": "项目详情",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"created": 1529816269790,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809886914.8125,
+			"modified": 1529816271933,
+			"name": "项目成员",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_8784e6ac19144459b99d8e14cf8127be",
+			"created": 1529826645296,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809798797.125,
+			"modified": 1529826647477,
+			"name": "作业",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_a5ab8cf5cd724858a7faafc7a4c50b2a",
+			"created": 1529826813813,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809769424.5625,
+			"modified": 1529826816195,
+			"name": "规则",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_573d058e15be4befacdb7c00360f4329",
+			"created": 1529827157968,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809754738.2812,
+			"modified": 1529827160458,
+			"name": "用户组",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_33923d5e12ad40908ad4cff870a6edae",
+			"created": 1529827685109,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809747395.1406,
+			"modified": 1529827687441,
+			"name": "系统配置",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c481b0dba59843e0a6a0e24326d18184",
+			"created": 1529828144882,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529809762081.4219,
+			"modified": 1529828499326,
+			"name": "LDAP",
+			"parentId": "wrk_1ec11960dbd04366b7b19dea2681f858",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_5a349fd668ee442080a4ff2ecdc82852",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529732048249,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529734353502,
+			"method": "GET",
+			"modified": 1529737132162,
+			"name": "API Authentication",
+			"parameters": [],
+			"parentId": "fld_f570943e63d0403aae82ca8301f6217b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/user",
+			"_type": "request"
+		},
+		{
+			"_id": "req_89dc504eb2f94d79868f48a2c2760ec0",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529732028337,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529733764731.25,
+			"method": "GET",
+			"modified": 1529737147168,
+			"name": "Current User Info",
+			"parameters": [],
+			"parentId": "fld_e34aadc290c545e3b1c6fc0741855da7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/user",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d8d88b3330dd4cb4a76a143aa21ae6bc",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529732161495,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529733764781.25,
+			"method": "GET",
+			"modified": 1529737136987,
+			"name": "Current User Feed",
+			"parameters": [],
+			"parentId": "fld_e34aadc290c545e3b1c6fc0741855da7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/user/feed",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e1a9aa679e604b7ba17342d157df5631",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529732219322,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529733764681.25,
+			"method": "GET",
+			"modified": 1529737153170,
+			"name": "Current User Repos",
+			"parameters": [],
+			"parentId": "fld_e34aadc290c545e3b1c6fc0741855da7",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/user/repos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0ecf2b083d0f4a1ab6115fe7c1e75352",
+			"authentication": {
+				"disabled": false,
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"login\": \"test\",\n  \"email\": \"test@163.com\",\n  \"avatar_url\": \"http://www.gravatar.com/avatar/7194e8d48fa1d2b689f99443b767316c\",\n  \"active\": true\n}"
+			},
+			"created": 1529732338560,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0e95034fcc004c1882a975386108cb87",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529741254427,
+			"method": "POST",
+			"modified": 1529741659672,
+			"name": "User Create",
+			"parameters": [],
+			"parentId": "fld_c243e7e9fa6a4b76982a1fbbf8597938",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_64ea716f8e8f433583b8b0ffe52693de",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529741254377,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529741254377,
+			"method": "DELETE",
+			"modified": 1529741274179,
+			"name": "User Delete",
+			"parameters": [],
+			"parentId": "fld_c243e7e9fa6a4b76982a1fbbf8597938",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/users/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_335eb22b92a8413b986eae8fcdb3b0a7",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746600513,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529746600513,
+			"method": "POST",
+			"modified": 1529746698797,
+			"name": "Repo Create",
+			"parameters": [],
+			"parentId": "fld_1b942189bdb84cd8965b673edb954798",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/repos/panzhengming/demo2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_51701a39bdcf4ccdbccc28943282c2c8",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529737177975,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177975,
+			"method": "GET",
+			"modified": 1529739786301,
+			"name": "Build Info",
+			"parameters": [],
+			"parentId": "fld_9a2212c486294b47a6d6ae9d5bce118d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/repos/panzhengming/test/builds/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1392e68a01d644a28098af226baf71c4",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529737313110,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177925,
+			"method": "GET",
+			"modified": 1529740772869,
+			"name": "Build Logs",
+			"parameters": [],
+			"parentId": "fld_9a2212c486294b47a6d6ae9d5bce118d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/repos/panzhengming/test/logs/5/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_939863c8763e40b4be2e435a3b778ee6",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529737388320,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177937.5,
+			"method": "GET",
+			"modified": 1529740795170,
+			"name": "Build List",
+			"parameters": [],
+			"parentId": "fld_9a2212c486294b47a6d6ae9d5bce118d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/repos/panzhengming/test/builds",
+			"_type": "request"
+		},
+		{
+			"_id": "req_676d3435d25945e48308984db6df6902",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529739654114,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529739654114,
+			"method": "POST",
+			"modified": 1529739869288,
+			"name": "Build Start",
+			"parameters": [],
+			"parentId": "fld_9a2212c486294b47a6d6ae9d5bce118d",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://47.98.248.210:8000/api/repos/panzhengming/test/builds/",
+			"_type": "request"
+		},
+		{
+			"_id": "env_09c97db3a5174a2abb96d016d1281b22",
+			"color": "#ff0000",
+			"created": 1529760585623,
+			"data": {
+				"base_url": "http://47.98.248.210:8000"
+			},
+			"isPrivate": false,
+			"modified": 1529762171833,
+			"name": "Production",
+			"parentId": "env_1fa54815dab54152bda7ba19ad4c4cd7",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_d912114012b04308a47805b8127006f6",
+			"color": "#0080ff",
+			"created": 1529761253949,
+			"data": {
+				"base_url": "http://47.98.248.210:8000"
+			},
+			"isPrivate": false,
+			"modified": 1529762176045,
+			"name": "Staging",
+			"parentId": "env_1fa54815dab54152bda7ba19ad4c4cd7",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_47f38cc0ae964cab9ede93db8580a6e2",
+			"color": "#00ff80",
+			"created": 1529761325418,
+			"data": {
+				"base_url": "http://47.98.248.210:8000"
+			},
+			"isPrivate": false,
+			"modified": 1529762179101,
+			"name": "Development",
+			"parentId": "env_1fa54815dab54152bda7ba19ad4c4cd7",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_4681ae3205e6419c8758d5178ef5209a",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746846963,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529733764781.25,
+			"method": "GET",
+			"modified": 1529769827048,
+			"name": "Current User Feed",
+			"parameters": [],
+			"parentId": "fld_08c061720bb84cf391e734d69ba6ec89",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user/feed?latest=true",
+			"_type": "request"
+		},
+		{
+			"_id": "req_20c7fa14abd546608d3e63ee8006f894",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746846965,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529733764681.25,
+			"method": "GET",
+			"modified": 1529760966391,
+			"name": "Current User Repos",
+			"parameters": [],
+			"parentId": "fld_08c061720bb84cf391e734d69ba6ec89",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user/repos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_73c685491766437cb9fa1b88c38086aa",
+			"authentication": {},
+			"body": {},
+			"created": 1529761052939,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529761052939,
+			"method": "GET",
+			"modified": 1529761060610,
+			"name": "Current User Info",
+			"parameters": [],
+			"parentId": "fld_08c061720bb84cf391e734d69ba6ec89",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cb45eef47fe849ef9a45e1d3b4ddf7fc",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746862099,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529734353502,
+			"method": "GET",
+			"modified": 1529760983278,
+			"name": "API Authentication",
+			"parameters": [],
+			"parentId": "fld_87f6d93d17aa4626b8e404741bdc8a1c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0373c11e4b61434f85e7e7c00427abda",
+			"authentication": {
+				"disabled": false,
+				"password": "123456@pzm",
+				"type": "basic",
+				"username": "panzhengming"
+			},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"id": "pair_ea55bea895b74bd292bb5740159af0bb",
+						"name": "username",
+						"value": "panzhengming"
+					},
+					{
+						"id": "pair_80ce8720813f4262abdd3af7c59a26bb",
+						"name": "password",
+						"value": "123456@pzm"
+					}
+				]
+			},
+			"created": 1529747914217,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1f2d5e6d16e849ed966a900fe8fbf111",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529747914217,
+			"method": "GET",
+			"modified": 1529769621564,
+			"name": "authorize",
+			"parameters": [],
+			"parentId": "fld_87f6d93d17aa4626b8e404741bdc8a1c",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/authorize",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f5cf3a95f2ab4da8aacb2edfb7e34929",
+			"authentication": {
+				"disabled": false,
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"login\": \"test2\",\n  \"email\": \"test2@163.com\",\n  \"avatar_url\": \"http://www.gravatar.com/avatar/7194e8d48fa1d2b689f99443b767316c\",\n  \"active\": true\n}"
+			},
+			"created": 1529746868214,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_0e95034fcc004c1882a975386108cb87",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529741254427,
+			"method": "POST",
+			"modified": 1529768976794,
+			"name": "User Create",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_709ba3f1c1e149cc87ef0d958fb1227c",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746868217,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529741254395.75,
+			"method": "DELETE",
+			"modified": 1529760853662,
+			"name": "User Delete",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/test2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f3776552e1a44c38805de32b25772408",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529756049754,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529756049754,
+			"method": "GET",
+			"modified": 1529760840975,
+			"name": "View the server’s metrics",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/metrics",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c1dc2ab1945f49c2a75bade42563641e",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529756091046,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529756091046,
+			"method": "GET",
+			"modified": 1529760836088,
+			"name": "View the server’s queue",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/info/queue",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bb49b61047e84eb7ad0ee5f50a59ee4a",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529756127511,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529756127511,
+			"method": "GET",
+			"modified": 1529760824605,
+			"name": "View the server’s pending and running builds",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/builds",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bd78792c616c491199f818848b3c6f57",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"email\": \"test2@github.com\",\n  \"admin\": false,\n  \"active\": true\n}"
+			},
+			"created": 1529758465210,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7351cf1db6234c96a0033e46d0d7e6b8",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529741254402,
+			"method": "PATCH",
+			"modified": 1529762463637,
+			"name": "User Update",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/test2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e6d4f4db335f4a31809166114f2fffb1",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529758530915,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529741254389.5,
+			"method": "GET",
+			"modified": 1529762251679,
+			"name": "User Info",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/test2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_29683ac575ec4a07b1f55e2216836692",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529758675062,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529741254327,
+			"method": "GET",
+			"modified": 1529762286165,
+			"name": "User List",
+			"parameters": [],
+			"parentId": "fld_58b39e48f50049d69fb9921b1c09ccdd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1a2eab3cb1754af2900a666768ec854f",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746873412,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177975,
+			"method": "GET",
+			"modified": 1529760908072,
+			"name": "Build Info",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds/12",
+			"_type": "request"
+		},
+		{
+			"_id": "req_90839480a29a4626b0f86d693932262f",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746873416,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177925,
+			"method": "GET",
+			"modified": 1529760915188,
+			"name": "Build Logs",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/logs/1/2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_091c0902f947423f806da2caed02907a",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529746873418,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177937.5,
+			"method": "GET",
+			"modified": 1529760911726,
+			"name": "Build List",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fcafbd3be40b4b9f9b9c0682a659790b",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529746873423,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_cb660e808df54486bc241bf72f35bf80",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529739654114,
+			"method": "POST",
+			"modified": 1529760901346,
+			"name": "Build Start",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_80434b64f87f4428a3d7d59fa40dee44",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529747649554,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529738416044.5,
+			"method": "DELETE",
+			"modified": 1529760904523,
+			"name": "Build Stop",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds/10",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6cb799c592bd4682aa56f60ce7ddbbdd",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529757963602,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177875,
+			"method": "POST",
+			"modified": 1529760918814,
+			"name": "Build Approve",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds/12/approve",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d2e4d92816b546d480edf869e0a68c36",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529758161661,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529737177825,
+			"method": "POST",
+			"modified": 1529760922265,
+			"name": "Build Decline",
+			"parameters": [],
+			"parentId": "fld_0a780b2ccc0047878994c9f6b646cac3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/builds/12/decline",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5a570c8c6d864085848fdb3ce5ec8ae4",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"id\": 0,\n\t\"address\": \"docker1.io\",\n\t\"username\": \"panzhengming\",\n\t\"password\": \"123456\",\n\t\"email\": \"\",\n\t\"token\": \"\"\n}"
+			},
+			"created": 1529761445430,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_162f698a0f3043029d826d3ea06c7f67",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529761445431,
+			"method": "POST",
+			"modified": 1529771192496,
+			"name": "Registry Create",
+			"parameters": [],
+			"parentId": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/registry",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9a60fc9769a642868f9e160ad64a0e7c",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"image\": \"docker.io\"\n}"
+			},
+			"created": 1529761514233,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ba416217f3264f25ae0bcfc473c61e16",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529761249185,
+			"method": "PATCH",
+			"modified": 1529761948109,
+			"name": "Registry Update",
+			"parameters": [],
+			"parentId": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/registry/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ef7dc89d8238432d9db756062eaf6f93",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529761627532,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529761151062,
+			"method": "DELETE",
+			"modified": 1529761631216,
+			"name": "Registry Delete",
+			"parameters": [],
+			"parentId": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/test/registry/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_31f878f6028049bd94633a8b494c82fb",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529761640530,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529761102000.5,
+			"method": "GET",
+			"modified": 1529771233951,
+			"name": "Registry Info",
+			"parameters": [],
+			"parentId": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/registry/docker2.io",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d70813afda0d4fd9b45496619292c489",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529761663119,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529761077469.75,
+			"method": "GET",
+			"modified": 1529771124812,
+			"name": "Registry List",
+			"parameters": [],
+			"parentId": "fld_861ddc8b20054aceb6d1ed824836587a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/registry",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1e3f0d2f2dd440beb0911cef0aa0bafe",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529757591799,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529757591799,
+			"method": "GET",
+			"modified": 1529760950494,
+			"name": "Secret List",
+			"parameters": [],
+			"parentId": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/secrets",
+			"_type": "request"
+		},
+		{
+			"_id": "req_32ea6e0546604b9191bfe3efeb6f7207",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"docker_username\",\n\t\"value\": \"octocat\",\n\t\"event\": [\n\t\t\"push\",\n\t\t\"tags\"\n\t]\n}"
+			},
+			"created": 1529757638171,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_b83376a3611a467bad81e59d28c25475",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757638171,
+			"method": "POST",
+			"modified": 1529760935602,
+			"name": "Secret Create",
+			"parameters": [],
+			"parentId": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/secrets",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e4255a44e0354f9bb36c859ee8e30410",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"value\": \"octocat\",\n  \"event\": [\n    \"push\",\n    \"pull_request\"\n  ]\n}"
+			},
+			"created": 1529757726475,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4dc3c54005a94ce4bc44f036bda73e2f",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757614985,
+			"method": "PATCH",
+			"modified": 1529760938622,
+			"name": "Secret Update",
+			"parameters": [],
+			"parentId": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/secrets/docker_username",
+			"_type": "request"
+		},
+		{
+			"_id": "req_05489f51ed154fc8b74ec7740733f210",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529757831463,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529757603392,
+			"method": "DELETE",
+			"modified": 1529760942515,
+			"name": "Secret Delete",
+			"parameters": [],
+			"parentId": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/secrets/docker_username",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dae8c631e9e44efa9c281eef121ebc9b",
+			"authentication": {},
+			"body": {},
+			"created": 1529757895834,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529757597595.5,
+			"method": "GET",
+			"modified": 1529760946173,
+			"name": "Secret Info",
+			"parameters": [],
+			"parentId": "fld_c397e36b322440b1aa8ba455dcc59351",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2/secrets/docker_username",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dac8c8f1ac1a41fbb30032c5baccd180",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {},
+			"created": 1529759271296,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529759271296,
+			"method": "POST",
+			"modified": 1529774643208,
+			"name": "Repo Create",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_caf97c183ad843e0bc2ef0214132259c",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"timeout\": 120,\n  \"private\": false,\n  \"trusted\": false,\n  \"allow_pr\": true,\n  \"allow_push\": true,\n  \"allow_deploys\": false,\n  \"allow_tags\": false\n}"
+			},
+			"created": 1529759380277,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529758454733.5,
+			"method": "PATCH",
+			"modified": 1529760873683,
+			"name": "Repo Update",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9fcd0033bc7a413a8a9b92bf38c50a3c",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529759501486,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529758046452.25,
+			"method": "DELETE",
+			"modified": 1529760877556,
+			"name": "Repo Delete",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_450dbb35fca4421cbfb87ee72dd050e7",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529759571698,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757842311.625,
+			"method": "POST",
+			"modified": 1529760882884,
+			"name": "Repo Chown",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/test/chown",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5efa7333abab4eccb0529a044e4a0649",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529759599757,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757740241.3125,
+			"method": "POST",
+			"modified": 1529760887059,
+			"name": "Repo Repair",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/test/repair",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e29e8bcb378342a09da477889da9388c",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529759652288,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757689206.1562,
+			"method": "GET",
+			"modified": 1529762097232,
+			"name": "Repo Info",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repos/panzhengming/demo2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0c851e9fdf814eee9cdc453eeeb97d46",
+			"authentication": {
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoicGFuemhlbmdtaW5nIiwidHlwZSI6InVzZXIifQ.kJ6X0zu78tWzss7Y1QBz0YE6mU4IHLsdw851CdpIFJ0",
+				"type": "bearer"
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529759746624,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5d2d7ffabbc4765bb1fc25594ab8c35",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_1deeba9318544b01b39b99c4b8c5876d",
+					"name": "",
+					"value": ""
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529757663688.5781,
+			"method": "GET",
+			"modified": 1529769860955,
+			"name": "Repo List",
+			"parameters": [],
+			"parentId": "fld_a3049daf4bac47de9ea428897388f546",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/user/repos?all=true",
+			"_type": "request"
+		},
+		{
+			"_id": "env_ce33fd72f37741bf974e65a8447a89c8",
+			"color": "#ff0000",
+			"created": 1529762776743,
+			"data": {
+				"base_url": "http://47.98.180.244:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529764463720,
+			"name": "Production",
+			"parentId": "env_e8922f2a3574419b809994e8d1e277e2",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_3954539820e446d9852d1b3e5719ffa7",
+			"color": "#80ffff",
+			"created": 1529762791005,
+			"data": {
+				"base_url": "http://47.98.180.244:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529764455957,
+			"name": "Staging",
+			"parentId": "env_e8922f2a3574419b809994e8d1e277e2",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_b36ac5bed69249fabb92ca4838f681d3",
+			"color": "#0080ff",
+			"created": 1529762807604,
+			"data": {
+				"base_url": "http://47.98.180.244:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529764465196,
+			"name": "Development",
+			"parentId": "env_e8922f2a3574419b809994e8d1e277e2",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_11a595f526b140ada3d7ae50787e0174",
+			"authentication": {},
+			"body": {},
+			"created": 1529765291322,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529765291322,
+			"method": "GET",
+			"modified": 1529765392547,
+			"name": "查询服务器信息接口",
+			"parameters": [],
+			"parentId": "fld_c75ae241d94945628662d64dbc25ec25",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/v1/info",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2a78e1890d1848da84a386c7b3831159",
+			"authentication": {},
+			"body": {},
+			"created": 1529765331572,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529765291272,
+			"method": "GET",
+			"modified": 1529765408434,
+			"name": "搜索用户或频道接口",
+			"parameters": [],
+			"parentId": "fld_c75ae241d94945628662d64dbc25ec25",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/v1/directory",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b8f5814720cc4e329db65a59cc671afc",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"user\": \"cooper\",\n\t\"password\": \"123456@pzm\"\n}"
+			},
+			"created": 1529765564420,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_382cd99790dc4d5db2bc1c8cb81ccc83",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_bf42255e042c412f981e506a24092eb8",
+					"name": "",
+					"value": ""
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529765564420,
+			"method": "POST",
+			"modified": 1529765865220,
+			"name": "用户登录接口",
+			"parameters": [],
+			"parentId": "fld_ca7ae98cbfaf4b999247f250b3851d26",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/v1/login",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c221d3621f65435ca76a2233aa375a36",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529765741557,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1e7dcfd1f10a420b92fe3316682f0024",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"id": "pair_7c9c9cea7fe04c76a30d4598b77d2df4",
+					"name": "X-Auth-Token",
+					"value": "a7KaVfJT3NWoGdS_QiVrR3Ogk4Fofx5Q2CqHI9GeLwD"
+				},
+				{
+					"id": "pair_08251b746ae643c99107f2670025c2f6",
+					"name": "X-User-Id",
+					"value": "itSsd5ErPNFK8tbpZ"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529765564370,
+			"method": "GET",
+			"modified": 1529765887589,
+			"name": "用户注销接口",
+			"parameters": [],
+			"parentId": "fld_ca7ae98cbfaf4b999247f250b3851d26",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/v1/logout",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e4104357795b410db4d109b75d737cec",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"name\",\n\t\"email\": \"email@user.tld\",\n\t\"password\": \"anypassyouwant\",\n\t\"username\": \"uniqueusername\",\n\t\"customFields\": {\n\t\t\"twitter\": \"@userstwitter\"\n\t}\n}"
+			},
+			"created": 1529765975278,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_204ed29cc6fb4a3482f5463c92ba94f9",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529765975278,
+			"method": "POST",
+			"modified": 1529766020758,
+			"name": "创建一个用户接口",
+			"parameters": [],
+			"parentId": "fld_ab555b8f095f4e90abb2ae8bf5534803",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/v1/users.create",
+			"_type": "request"
+		},
+		{
+			"_id": "env_759907fc97644352ac992a3bfbf5c412",
+			"color": "#ff0000",
+			"created": 1529766139170,
+			"data": {
+				"base_url": "http://47.98.248.210:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529766211995,
+			"name": "Production",
+			"parentId": "env_b281b6c0167343eb99664043c0dd15bd",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_6f74db537e33493fbcc5d6b0277bc15e",
+			"color": "#80ffff",
+			"created": 1529766152428,
+			"data": {
+				"base_url": "http://47.98.248.210:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529766205512,
+			"name": "Staging",
+			"parentId": "env_b281b6c0167343eb99664043c0dd15bd",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_aabb569e8ad44a09b4bf754f4d39e6d9",
+			"color": "#0080ff",
+			"created": 1529766168184,
+			"data": {
+				"base_url": "http://47.98.248.210:3000"
+			},
+			"isPrivate": false,
+			"modified": 1529766210166,
+			"name": "Development",
+			"parentId": "env_b281b6c0167343eb99664043c0dd15bd",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_6ae1d58122e3463990fca9818b6a8f30",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\": \"panzhengming91@163.com\",\n\t\"full_name\": \"demo\",\n\t\"login_name\": \"test\",\n\t\"password\": \"123456\",\n\t\"send_notify\": true,\n\t\"source_id\": 0,\n\t\"username\": \"pzm\"\n}"
+			},
+			"created": 1529766464227,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_14682647f494417c9038f4224e90654d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529766464227,
+			"method": "POST",
+			"modified": 1529766715750,
+			"name": "创建一个用户",
+			"parameters": [],
+			"parentId": "fld_f2b0628687d84560a03ca09114611ae2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/admin/users",
+			"_type": "request"
+		},
+		{
+			"_id": "env_87d5a83e42eb4c65908524252ee8693f",
+			"color": "#ff0000",
+			"created": 1529766318580,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529766327688,
+			"name": "Production",
+			"parentId": "env_057d1e2b131a48c69296583ba6580ceb",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_64b6f9c021ed403f8ec29bcb5fd4e68c",
+			"color": "#80ffff",
+			"created": 1529766335649,
+			"data": {
+				"base_url": "http://47.98.180.244"
+			},
+			"isPrivate": false,
+			"modified": 1529810230269,
+			"name": "Staging",
+			"parentId": "env_057d1e2b131a48c69296583ba6580ceb",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_b03b8cfb5fd746a29ae7f06552eef8d3",
+			"color": "#0080ff",
+			"created": 1529766345950,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529766357389,
+			"name": "Development",
+			"parentId": "env_057d1e2b131a48c69296583ba6580ceb",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_021fe5c4611f41e6b9399d4f4bb4281d",
+			"authentication": {},
+			"body": {},
+			"created": 1529809749597,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529809749597,
+			"method": "GET",
+			"modified": 1529810236167,
+			"name": "查看系统信息",
+			"parameters": [],
+			"parentId": "fld_8713d9b70ace4a9c9fb18e3978ba9789",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/systeminfo",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7b3fd9cb494e40d4a101ca0ed6221be7",
+			"authentication": {},
+			"body": {},
+			"created": 1529809802560,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529788106912,
+			"method": "GET",
+			"modified": 1529810240740,
+			"name": "查看系统存储卷信息",
+			"parameters": [],
+			"parentId": "fld_8713d9b70ace4a9c9fb18e3978ba9789",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/systeminfo/volumes",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f30bd1755223487fadfc3395f5b1114f",
+			"authentication": {},
+			"body": {},
+			"created": 1529810593301,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529788106862,
+			"method": "GET",
+			"modified": 1529810608982,
+			"name": "查看系统证书信息",
+			"parameters": [],
+			"parentId": "fld_8713d9b70ace4a9c9fb18e3978ba9789",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/systeminfo/getcert",
+			"_type": "request"
+		},
+		{
+			"_id": "req_12f165336b3445f09515493b2ec96175",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": [
+					{
+						"id": "pair_86e8da6b22fa485d892beeac27350109",
+						"name": "principal",
+						"value": "admin"
+					},
+					{
+						"id": "pair_629262bba6b749d8bc54ccb7226b9aab",
+						"name": "password",
+						"value": "Harbor12345"
+					}
+				]
+			},
+			"created": 1529810223549,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_f297e1ec71b044f6a0044561f03e8017",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810223549,
+			"method": "POST",
+			"modified": 1529811393291,
+			"name": "用户登录",
+			"parameters": [],
+			"parentId": "fld_07ed2497ce304f339b07406f652c2d19",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/login",
+			"_type": "request"
+		},
+		{
+			"_id": "req_761a7993c6c44a9b9d47249782f56b41",
+			"authentication": {},
+			"body": {},
+			"created": 1529810436538,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529810436538,
+			"method": "GET",
+			"modified": 1529811476352,
+			"name": "获取当前用户信息",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/current",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4237e73991224f44a916e9dfe737ea04",
+			"authentication": {},
+			"body": {},
+			"created": 1529810673995,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529810436588,
+			"method": "GET",
+			"modified": 1529811472790,
+			"name": "获取所有注册的用户",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9913390679614d229a31485274e3db19",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"username\": \"demo\",\n\t\"password\": \"123456@Pzm\",\n\t\"email\": \"demo@qq.com\",\n\t\"realname\": \"pan\"\n}"
+			},
+			"created": 1529811053264,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ddd42908fdd54742bd798651c1c159bd",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810436563,
+			"method": "POST",
+			"modified": 1529816596758,
+			"name": "注册一个用户",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b7e07101cf8b42c3b06eb7f03672bc89",
+			"authentication": {},
+			"body": {},
+			"created": 1529811465046,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529810330043.5,
+			"method": "GET",
+			"modified": 1529811932144,
+			"name": "获取指定用户信息",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/4",
+			"_type": "request"
+		},
+		{
+			"_id": "req_568cc2701050448ca3945f5c2eaee70e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\": \"demo@qq.com\",\n\t\"realname\": \"demo\",\n\t\"comment\": \"a demo test\"\n}"
+			},
+			"created": 1529811576527,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d8b29c62f56b4235aad0de50edd3ec29",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810276796.25,
+			"method": "PUT",
+			"modified": 1529811637572,
+			"name": "更改指定用户信息",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_421356b0104f49cf93ee0bc2ca14bf16",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529811658202,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d8b29c62f56b4235aad0de50edd3ec29",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810250172.625,
+			"method": "DELETE",
+			"modified": 1529811679400,
+			"name": "注销指定用户",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9cfbc15ee9c74e5a98b089db62dab338",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"old_password\": \"123456@Pzm\",\n  \"new_password\": \"123456@PZM\"\n}"
+			},
+			"created": 1529811721989,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d8b29c62f56b4235aad0de50edd3ec29",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810236860.8125,
+			"method": "PUT",
+			"modified": 1529811848283,
+			"name": "修改指定用户密码",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/4/password",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f58a007c9ff34397a4045b9d83866ec7",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"has_admin_role\": 1\n}"
+			},
+			"created": 1529811876066,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_d8b29c62f56b4235aad0de50edd3ec29",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810230204.9062,
+			"method": "PUT",
+			"modified": 1529812029641,
+			"name": "设置用户管理员权限",
+			"parameters": [],
+			"parentId": "fld_3602d94830c547d0ab136287dbb036d5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/users/4/sysadmin",
+			"_type": "request"
+		},
+		{
+			"_id": "req_acdc0436641647ea98c69059fbc79a90",
+			"authentication": {},
+			"body": {},
+			"created": 1529818837470,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529818837470,
+			"method": "GET",
+			"modified": 1529819908205,
+			"name": "获取项目下所有镜像仓库",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories?project_id=9",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2c0803b2825a4d32946f78d07e09b18b",
+			"authentication": {},
+			"body": {},
+			"created": 1529819367677,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529815644998.5,
+			"method": "DELETE",
+			"modified": 1529819958162,
+			"name": "删除项目的一个镜像仓库",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e3e0345b32e446e48129fcba75ea1cb1",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"description\": \" a demo test\"\n}"
+			},
+			"created": 1529820006920,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_302f56f460d843dc8393e5e8ddddf147",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529814048762.75,
+			"method": "PUT",
+			"modified": 1529820066876,
+			"name": "修改项目的镜像仓库描述",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cd6da46e74ac45da8fc04b64756c56a2",
+			"authentication": {},
+			"body": {},
+			"created": 1529820091105,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529814048712.75,
+			"method": "GET",
+			"modified": 1529825548408,
+			"name": "获取项目下镜像仓库label标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_eb497c84f05d4a7bbc0010b725ef624b",
+			"authentication": {},
+			"body": {},
+			"created": 1529820289203,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1c1326e095a74801b2c5094c86cf3d25",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529813250619.875,
+			"method": "POST",
+			"modified": 1529825551002,
+			"name": "添加项目下镜像仓库label标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e0a800f49a9845b1b3dc4a728e78c98f",
+			"authentication": {},
+			"body": {},
+			"created": 1529825487389,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1c1326e095a74801b2c5094c86cf3d25",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812851573.4375,
+			"method": "DELETE",
+			"modified": 1529825552631,
+			"name": "删除项目下镜像仓库label标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9ae32f9f52cc4fb092c57bfdb0c07441",
+			"authentication": {},
+			"body": {},
+			"created": 1529825560346,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812851523.4375,
+			"method": "GET",
+			"modified": 1529825726908,
+			"name": "获取项目下镜像仓库所有的tag标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5740b9874c0b4b069cfd57b115d95d82",
+			"authentication": {},
+			"body": {},
+			"created": 1529825612558,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812652025.2188,
+			"method": "DELETE",
+			"modified": 1529825629015,
+			"name": "删除项目下镜像仓库tag标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7bff6106cfb547dc8e6174f0c6a042e0",
+			"authentication": {},
+			"body": {},
+			"created": 1529825746882,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812751774.3281,
+			"method": "GET",
+			"modified": 1529825769344,
+			"name": "获取项目下镜像仓库某个的tag标签",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4bcb9190fb384342b1db3c9876e4e193",
+			"authentication": {},
+			"body": {},
+			"created": 1529825793585,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812651975.2188,
+			"method": "GET",
+			"modified": 1529825821738,
+			"name": "获取项目下镜像仓库某个的tag标签对应的label",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c2fdad71cb4c45b482ca0e6f483a555a",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"test\": \"1\"\n}"
+			},
+			"created": 1529825832951,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_688dfe92460142f3b4b7ac6a98a2f919",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812552251.1094,
+			"method": "POST",
+			"modified": 1529825906376,
+			"name": "添加项目下镜像仓库某个的tag标签对应的label",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7ec470737c324139bd8ea0a3095187bc",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529825917559,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_688dfe92460142f3b4b7ac6a98a2f919",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812502389.0547,
+			"method": "DELETE",
+			"modified": 1529825932774,
+			"name": "删除项目下镜像仓库某个的tag标签对应的label",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/labels",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b5a9cc635a7249419574e099f734fd3e",
+			"authentication": {},
+			"body": {},
+			"created": 1529825945501,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812502339.0547,
+			"method": "GET",
+			"modified": 1529825999840,
+			"name": "获取项目下镜像仓库某个的tag标签对应的manifests",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/manifest",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3c9cc86d202045099f5f3f94c7581ef9",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529826015267,
+			"description": "",
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812477433.0273,
+			"method": "POST",
+			"modified": 1529826131758,
+			"name": "扫描项目下的某个tag标签的镜像",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/scan",
+			"_type": "request"
+		},
+		{
+			"_id": "req_027cd7eef26a47bd9340af1ca9d3906e",
+			"authentication": {},
+			"body": {},
+			"created": 1529826216110,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_39f71c66ce144e69a3fc44f7a2211a50",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812464980.0137,
+			"method": "GET",
+			"modified": 1529826253630,
+			"name": "获取项目下的某个tag标签的镜像扫描结果",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/tags/alpine/vulnerability/details",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e09ecc5f5bcf4cb9ac0e208f9ab1e630",
+			"authentication": {},
+			"body": {},
+			"created": 1529826301379,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_39f71c66ce144e69a3fc44f7a2211a50",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812458753.5068,
+			"method": "GET",
+			"modified": 1529826342215,
+			"name": "获取项目下的镜像签名信息",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/test2/nginx/signatures",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b9c3d2f2f0954640b18bc3f506df6159",
+			"authentication": {},
+			"body": {},
+			"created": 1529826393494,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_39f71c66ce144e69a3fc44f7a2211a50",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812455640.2534,
+			"method": "GET",
+			"modified": 1529826411480,
+			"name": "获取项目下的最受欢饮的镜像",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/repositories/top",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c24d24dc0c6a4c66ba0c0c82b0a7b6bb",
+			"authentication": {},
+			"body": {},
+			"created": 1529826468975,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_39f71c66ce144e69a3fc44f7a2211a50",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812454083.6267,
+			"method": "GET",
+			"modified": 1529826578334,
+			"name": "获取用户下项目日志",
+			"parameters": [],
+			"parentId": "fld_79e6044201b94be18ade8d222a0bdba0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/logs?username=admin&repository=test2/nginx",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9d29ed68c09141e085a0d9b0dcf30705",
+			"authentication": {},
+			"body": {},
+			"created": 1529812452527,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812452527,
+			"method": "GET",
+			"modified": 1529812959889,
+			"name": "获取用户创建的所有项目",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e14fd870988346c5b1b19fe769e89b8f",
+			"authentication": {},
+			"body": {},
+			"created": 1529812504321,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_89e9b433a1004e74bae44ab6bcf5bfb7",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812452477,
+			"method": "HEAD",
+			"modified": 1529813245480,
+			"name": "检查用户要创建的项目是否已存在",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects?project_name=test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0e0d84dd17114c17a02e6b709a797ee4",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"project_name\": \"test2\",\n\t\"metadata\": {\n\t\t\"public\": \"1\"\n\t}\n}"
+			},
+			"created": 1529812932148,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1365dfc6a14f4d629a8161dac806e981",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529812452427,
+			"method": "POST",
+			"modified": 1529818004101,
+			"name": "用户创建一个项目",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ec41dbb1dbb14afbb18aed90f538cddd",
+			"authentication": {},
+			"body": {},
+			"created": 1529814520655,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529812452377,
+			"method": "GET",
+			"modified": 1529816082270,
+			"name": "获取用户创建的项目配置",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/7",
+			"_type": "request"
+		},
+		{
+			"_id": "req_481a65634301490db3379f4f354abdcb",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"project_name\": \"test\",\n\t\"metadata\": {\n\t\t\"auto_scan\": \"true\",\n\t\t\"enable_content_trust\": \"false\",\n\t\t\"prevent_vul\": \"true\",\n\t\t\"public\": \"true\",\n\t\t\"severity\": \"medium\"\n\t}\n}"
+			},
+			"created": 1529814673626,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529811444482.5,
+			"method": "PUT",
+			"modified": 1529816089163,
+			"name": "更新用户创建的项目配置",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/7",
+			"_type": "request"
+		},
+		{
+			"_id": "req_50ced6ded05c404da295cf6d11476ae9",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529814821013,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810940535.25,
+			"method": "DELETE",
+			"modified": 1529816101582,
+			"name": "删除用户创建的项目",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/7",
+			"_type": "request"
+		},
+		{
+			"_id": "req_803cd5ed5c3a4762892321b0fa416881",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529814890213,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810688561.625,
+			"method": "GET",
+			"modified": 1529816112945,
+			"name": "获取用户项目的日志",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/logs",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dd7c30cfe7da46b79ac795c4bef17831",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529814975127,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810562574.8125,
+			"method": "GET",
+			"modified": 1529816144908,
+			"name": "获取用户项目的所有元数据",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/metadatas",
+			"_type": "request"
+		},
+		{
+			"_id": "req_bf2bac1b2c9e44f982e46560a22cb17d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"auto_scan\": \"true\"\n}"
+			},
+			"created": 1529815019910,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810499581.4062,
+			"method": "POST",
+			"modified": 1529816184000,
+			"name": "添加用户项目的元数据种类",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/metadatas",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5a9214a7202648ce97d4cfae9d7404f9",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529815270328,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810468084.7031,
+			"method": "GET",
+			"modified": 1529816202443,
+			"name": "获取用户项目的一个元数据详情",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/metadatas/auto_scan",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d034c83de94843c692529eaa173651cd",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"auto_scan\": \"false\"\n}"
+			},
+			"created": 1529815335760,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810452336.3516,
+			"method": "PUT",
+			"modified": 1529816217289,
+			"name": "更新用户项目的一个元数据详情",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/metadatas/auto_scan",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2c5ee423ce484f099816e6e846e7c14e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529815451983,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_bd4065a804b841b88caf2678cd82a6f6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810444462.1758,
+			"method": "DELETE",
+			"modified": 1529816232004,
+			"name": "删除用户项目的一个元数据详情",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/metadatas/auto_scan",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6d61b49311f244548e291e2a4890be3d",
+			"authentication": {},
+			"body": {
+				"mimeType": "multipart/form-data",
+				"params": []
+			},
+			"created": 1529818122431,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_cdcd38cfff8c4f1c9a9d4ec47af83403",
+					"name": "Content-Type",
+					"value": "multipart/form-data"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529810444412.1758,
+			"method": "GET",
+			"modified": 1529818368458,
+			"name": "用户项目或仓库搜索",
+			"parameters": [],
+			"parentId": "fld_ec8a052442f54b5f9ce9c8889987dfd2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/search?q=demo",
+			"_type": "request"
+		},
+		{
+			"_id": "req_30956f5602e94d158704e585c6f7f5a2",
+			"authentication": {},
+			"body": {},
+			"created": 1529816331183,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529809872228.5312,
+			"method": "GET",
+			"modified": 1529817680194,
+			"name": "获取项目的成员信息",
+			"parameters": [],
+			"parentId": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/members",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4a87b4652db84d64898ab3df7062c250",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"role_id\": 1,\n\t\"member_user\": {\n\t\t\"username\": \"demo\"\n\t}\n}"
+			},
+			"created": 1529816526342,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a336dce06b1f4c5aa4094a412ce87f0d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529809841570.6484,
+			"method": "POST",
+			"modified": 1529817687372,
+			"name": "添加一个项目的成员",
+			"parameters": [],
+			"parentId": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/members",
+			"_type": "request"
+		},
+		{
+			"_id": "req_32fef69fd5174f18896a3319371f28a2",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529817390296,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a336dce06b1f4c5aa4094a412ce87f0d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529809795583.8242,
+			"method": "GET",
+			"modified": 1529817707915,
+			"name": "获取项目成员的权限",
+			"parameters": [],
+			"parentId": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/members/14",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d1bb04a3b86b41b5bbc611a35b75234b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"role_id\": 1\n}"
+			},
+			"created": 1529817516429,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a336dce06b1f4c5aa4094a412ce87f0d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529809772590.412,
+			"method": "PUT",
+			"modified": 1529817717476,
+			"name": "修改项目成员的权限",
+			"parameters": [],
+			"parentId": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/projects/6/members/6",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3cdc93dd767441499c42ff81387641ff",
+			"authentication": {},
+			"body": {},
+			"created": 1529817825287,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529809772540.412,
+			"method": "GET",
+			"modified": 1529817891444,
+			"name": "获取用户创建的项目和仓库详情",
+			"parameters": [],
+			"parentId": "fld_19cc2abb3efb495c90a8483fa52a77f0",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/statistics",
+			"_type": "request"
+		},
+		{
+			"_id": "req_48638ce0a08c489c9265c3f483545225",
+			"authentication": {},
+			"body": {},
+			"created": 1529826661149,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529826661149,
+			"method": "GET",
+			"modified": 1529826701277,
+			"name": "获取所有作业信息",
+			"parameters": [],
+			"parentId": "fld_8784e6ac19144459b99d8e14cf8127be",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/jobs/replication",
+			"_type": "request"
+		},
+		{
+			"_id": "req_29cadd7e38954270be2d346a943c22cf",
+			"authentication": {},
+			"body": {},
+			"created": 1529826849521,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529826849521,
+			"method": "GET",
+			"modified": 1529826876209,
+			"name": "根据名称和项目id获取所有的规则信息",
+			"parameters": [],
+			"parentId": "fld_a5ab8cf5cd724858a7faafc7a4c50b2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/policies/replication",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6c13497763a14c2da83130372fc6b024",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1529826884352,
+			"description": "",
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529826755335,
+			"method": "POST",
+			"modified": 1529826921374,
+			"name": "新增一个规则",
+			"parameters": [],
+			"parentId": "fld_a5ab8cf5cd724858a7faafc7a4c50b2a",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/policies/replication",
+			"_type": "request"
+		},
+		{
+			"_id": "req_29029b7edcd94b21b50b97fe82dcb591",
+			"authentication": {},
+			"body": {},
+			"created": 1529827179228,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_1fe2dd6e4d5946a38b3277eab07cdd17",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827179328,
+			"method": "GET",
+			"modified": 1529827652795,
+			"name": "获取所有用户组信息",
+			"parameters": [],
+			"parentId": "fld_573d058e15be4befacdb7c00360f4329",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/usergroups",
+			"_type": "request"
+		},
+		{
+			"_id": "req_585f86cfa2934c05a4f68c8839fffecd",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"id\": 0,\n  \"group_name\": \"string\",\n  \"group_type\": 0,\n  \"ldap_group_dn\": \"string\"\n}"
+			},
+			"created": 1529827230623,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_852780b7b5114671af152a0e33ffdce6",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827179278,
+			"method": "POST",
+			"modified": 1529827657059,
+			"name": "创建一个用户组",
+			"parameters": [],
+			"parentId": "fld_573d058e15be4befacdb7c00360f4329",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/usergroups",
+			"_type": "request"
+		},
+		{
+			"_id": "req_04f9f8e24c2b4b6990b7ee9f74eed805",
+			"authentication": {},
+			"body": {},
+			"created": 1529827697979,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529827697979,
+			"method": "GET",
+			"modified": 1529827717726,
+			"name": "获取系统配置信息",
+			"parameters": [],
+			"parentId": "fld_33923d5e12ad40908ad4cff870a6edae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/configurations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_56248655035e43feb72c63ea36f12549",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"ldap_timeout\": 100\n}"
+			},
+			"created": 1529827725531,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5ef542f8c814e619fb1e76e982e56f5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827438653.5,
+			"method": "PUT",
+			"modified": 1529827929239,
+			"name": "修改系统配置信息",
+			"parameters": [],
+			"parentId": "fld_33923d5e12ad40908ad4cff870a6edae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/configurations",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4b796fa6b30142bf9808b4117c49bb21",
+			"authentication": {},
+			"body": {},
+			"created": 1529827972682,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e5ef542f8c814e619fb1e76e982e56f5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827308990.75,
+			"method": "POST",
+			"modified": 1529827997197,
+			"name": "重置系统配置信息",
+			"parameters": [],
+			"parentId": "fld_33923d5e12ad40908ad4cff870a6edae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/configurations/reset",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ef49945c639d4131a63c93d4e7594212",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"email_host\": \"string\",\n  \"email_port\": 0,\n  \"email_username\": \"string\",\n  \"email_password\": \"string\",\n  \"email_ssl\": true,\n  \"email_identity\": \"string\"\n}"
+			},
+			"created": 1529828075157,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_885fb63631124f51857529094454daae",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827308940.75,
+			"method": "POST",
+			"modified": 1529828111589,
+			"name": "检查邮件服务的状态",
+			"parameters": [],
+			"parentId": "fld_33923d5e12ad40908ad4cff870a6edae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/email/ping",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e06c0cc4944a4a9683572816027bb0b5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"ldap_url\": \"string\",\n  \"ldap_search_dn\": \"string\",\n  \"ldap_search_password\": \"string\",\n  \"ldap_base_dn\": \"string\",\n  \"ldap_filter\": \"string\",\n  \"ldap_uid\": \"string\",\n  \"ldap_scope\": 0,\n  \"ldap_connection_timeout\": 0\n}"
+			},
+			"created": 1529828166941,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_77e1a6504bdf41448b597ef835398763",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529828166941,
+			"method": "POST",
+			"modified": 1529828247308,
+			"name": "查询ldap服务的状态",
+			"parameters": [],
+			"parentId": "fld_c481b0dba59843e0a6a0e24326d18184",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/ldap/ping",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b24d0269c65c475f8ba49f42219ea8f6",
+			"authentication": {},
+			"body": {},
+			"created": 1529828238577,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529828166891,
+			"method": "GET",
+			"modified": 1529828288801,
+			"name": "获取ldap用户组信息",
+			"parameters": [],
+			"parentId": "fld_c481b0dba59843e0a6a0e24326d18184",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/ldap/groups/search?groupname=test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3a6843dac3dd441b93e46847a8f6b760",
+			"authentication": {},
+			"body": {},
+			"created": 1529828322465,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529827932435,
+			"method": "GET",
+			"modified": 1529828338768,
+			"name": "获取ldap用户信息",
+			"parameters": [],
+			"parentId": "fld_c481b0dba59843e0a6a0e24326d18184",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/ldap/users/search?username=test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9947de711010400fb729858bc7c01fc9",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"ldap_uid_list\": [\n    \"string\"\n  ]\n}"
+			},
+			"created": 1529828435508,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_96dd4b9207ce4b8084ce32dacc3daf8b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529827815207,
+			"method": "POST",
+			"modified": 1529828491534,
+			"name": "导入用户信息",
+			"parameters": [],
+			"parentId": "fld_c481b0dba59843e0a6a0e24326d18184",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/api/ldap/users/import",
+			"_type": "request"
+		}
+	]
+}
