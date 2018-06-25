@@ -62,6 +62,7 @@ tags: ["website", "book"]
 - [vue-beauty ui框架](https://fe-driver.github.io/vue-beauty/#/components/button)
 - [axios http请求库](https://github.com/axios/axios)
 - [webhook 钩子](https://github.com/adnanh/webhook)
+- [testcafe web测试框架](https://github.com/DevExpress/testcafe)
 - [TensorFlow 深度学习框架](https://www.tensorflow.org/)
 - [less.js 前段代码压缩库](https://less.bootcss.com/#)
 - [Caesium 图片压缩工具](https://saerasoft.com/caesium/)
@@ -84,13 +85,14 @@ tags: ["website", "book"]
 - [Insomnia 接口测试工具](https://insomnia.rest/download/)
 - [jupyter notebook 在线代码运行](http://jupyter.org/)
 - [jupyterhub jupyter集群用户管理](http://jupyterhub.readthedocs.io/en/stable/)
-- [openldap 用户权限认证](http://www.openldap.org/doc/admin24/quickstart.html)
+- [openldap 用户权限认证](https://github.com/osixia/docker-phpLDAPadmin)
 - [harbor 镜像管理中心](https://github.com/vmware/harbor)
 - [StatusOK 接口状态检查](https://github.com/sanathp/statusok)
 - [Vegeta 接口负载压力测试工具](https://github.com/tsenart/vegeta)
 - [Monocular k8s的app应用商城](https://github.com/kubernetes-helm/monocular)
 - [kops k8s集群管理工具](https://github.com/kubernetes/kops)
 - [astilectron golang的GUI工具](github.com/asticode/go-astilectron)
+- [lvs 高可用集群搭建](http://www.linuxvirtualserver.org/zh/lvs1.html)
 
 
 ### 书籍列表

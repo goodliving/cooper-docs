@@ -99,8 +99,8 @@ pygmentsCodeFences = true
 
 [[menu.main]]
     parent = "tester"
-    name = "capability"
-    url = "tags/capability"
+    name = "load"
+    url = "tags/load"
     weight = 3
 
 [[menu.main]]

@@ -4,7 +4,7 @@ date: 2018-06-20T15:10:35+08:00
 draft: false
 subtitle: "记录一次robotframe工具容器化的使用过程"
 bigimg: [{src: "/img/robotframework.jpg", desc: "robotframework"}]
-tags: ["tester", "interface", "gitea", "git"]
+tags: ["tester", "interface", "automate", "gitea", "docker"]
 ---
 
 [Robot Framework](http://robotframework.org)是一个基于`Python`可扩展地关键字驱动的测试自动化框架，对于测试人员来说，不需要编写脚本或者插件，同时也有`GUI`界面，相对来说，用例编写比较容易。最主要的是网上关于其工具的使用的教程比较多，对于一些常见问题都有十分详细的解决方案。它一个跨平台的工具，可以在`linux`中使用，而这正是`docker`所需要的环境。
